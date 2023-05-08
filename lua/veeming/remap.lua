@@ -12,9 +12,11 @@ vim.keymap.set("i", '(', '()<Esc>ha')
 vim.keymap.set("i", '{', '{}<Esc>ha')
 vim.keymap.set("i", '[', '[]<Esc>ha')
 vim.keymap.set("i", "'", "''<Esc>ha")
+vim.keymap.set("i", "`", "``<Esc>ha")
 -- insert mode got jealous
 vim.keymap.set("i", "<A-j>", "<Esc>:m .+1<CR>==a")
 vim.keymap.set("i", "<A-k>", "<Esc>:m .-2<CR>==a")
 -- windows style save <3
-vim.keymap.set("i","<C-s>", "<Esc>:w<CR>")
-vim.keymap.set("i", "<C-dd>", "<Esc>dda")
+vim.keymap.set("i", "<C-s>", "<Esc>:w<CR>")
+vim.keymap.set("i", "<A-p>", "<Esc>pa")
+
