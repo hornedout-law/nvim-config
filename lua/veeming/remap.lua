@@ -19,4 +19,6 @@ vim.keymap.set("i", "<A-k>", "<Esc>:m .-2<CR>==a")
 -- windows style save <3
 vim.keymap.set("i", "<C-s>", "<Esc>:w<CR>")
 vim.keymap.set("i", "<A-p>", "<Esc>pa")
-
+vim.keymap.set("n", "<leader>bf", ":buffers<CR>")
+vim.keymap.set("n", "<leader>bp", ":bp<CR>")
+vim.keymap.set("n", "<leader>bn", ":bNext<CR>")
